@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background: rgb(83, 91, 97);
+  background: white;
+  margin: 0rem;
+  min-height: 100vh;
+}
+
+#mobile-body-overly {
+  display: block;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  z-index: 997;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  font-family: "Electrolize", sans-serif;
+  color: #c3defb;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(104, 100, 100);
+
+  padding-top: 20px;
+  font-size: 35px;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  font-size: 16px;
+  padding-bottom: 16px;
+
+  letter-spacing: 0.5px;
+
+  text-transform: capitalize;
+
+  font-family: "Roboto", sans-serif;
+}
+
+h4 {
+  text-align: center;
+  font-weight: 200;
+  color: white;
+  padding: -1px 25px 0 25px;
+  line-height: 22px;
+  font-family: "Roboto", sans-serif;
+  width: 87%;
+  margin: 0 auto;
+}
+
+h5 {
+  color: black;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+hr {
+  margin: 1rem 0;
+  color: inherit;
+
+  border: 0;
+  opacity: 0.25;
+}
+hr.divider {
+  height: 0.2rem;
+  max-width: 3.25rem;
+  margin: 1.5rem auto;
+  background: rgb(17, 112, 188);
+  opacity: 1;
+  margin-bottom: 50px;
+}
+
+p {
+  font-family: Futura, sans-serif;
+
+  letter-spacing: 0.1px;
+  color: white;
+
+  line-height: 22px;
+
+  color: black;
+}
+
+#canvas,
+#text {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+#text {
+  min-height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 3.5vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 40px;
+
+  .container {
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    gap: 10px;
+    min-height: 40vh;
+  }
+
+  .boxText {
+    width: 100%;
+    p {
+      color: white;
+      font-size: 15px;
+    }
+    h3 {
+      color: rgb(157, 186, 141);
+      font-size: 21px;
+      font-weight: 800;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    }
+  }
+
+  .boxEnlaces {
+    display: flex;
+    gap: 20px;
+  }
+}
+#text,
+p {
+  opacity: 0.9;
+  margin-bottom: 20px;
+
+  h1 {
+    font-size: 30px;
+    padding-bottom: 5px;
+  }
+}
