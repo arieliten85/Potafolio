@@ -8,63 +8,149 @@
 @import"./nav";
 @import"./footer";
 @import"./buttons";
+@import"./traducction";
+@import"./themes";
 
 
-// body{
-//     position: absolute;
-// }
+body{
+    overflow-x: hidden;
+ }
 
-// @media (min-width: 1280px) {
-    //   /*HEADER*/
-    //   header {
-    //     nav {
+
+
+@media (min-width: 1920px) {
+
+
+
+    #text .container {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
+      min-height: 40vh;
+      position: relative;
+     
+      width: 50%;
+    }
+  
+    #text .boxText h6 {
+      color: white;
+      font-size: 36px;
+    }
+  
+    .boxText h1 {
+      font-size: 105px !important;
+      padding-bottom: 20px;
+      
+    }
+  
+    .boxText h3 {
+      font-size: 40px !important;
+    }
+
+    #text h1, p h1 {
+        
+        width: 100%;
+      }
+
+
+      .btn_arrow {
+        font-size: 1.9rem !important;
+        width: 70px;
+        height: 70px;
+       
+      }
+
+
+      .theme-container {
+        width: 65px;
+        height: 65px;
+     
+        cursor: pointer;
+      }
+
+      label span {
+        width: 65px;
+        height: 65px;
+     
+        font-size: 1.1vmax;
+      }
+
+
+      .boxArrow .arrow-down {
+     
+        font-size: 40px;
     
-    //       display: flex !important;
-    //      // width: 100%;
-    
-    //      // border: red solid;
-    //       .menuMedim {
-    //         display: contents;
-           
-    //       }
-    //     }
-    //     .bars {
-    //       display: none !important;
-    //     }
-    
-    //     // header.bg {
-    //     //   height: 100vh;
-    //     //   min-height: 40rem;
-    //     //   padding-top: 4.5rem;
-    //     //   padding-bottom: 0;
-    
-    //     //   padding-top: 10rem;
-    //     //   padding-bottom: calc(10rem - 4.5rem);
-    //     //   background: linear-gradient(
-    //     //       to bottom,
-    //     //       rgba(0, 0, 0, 0.342) 0%,
-    //     //       rgba(228, 224, 224, 0.288) 100%
-    //     //     ),
-    //     //     url(../img/img-06.jpg);
-    //     //   background-position: center;
-    //     //   background-repeat: no-repeat;
-    //     //   background-attachment: scroll;
-    //     //   background-size: cover;
-    //     // }
-    
-    //     // .texto_saludos {
-    //     //   font-size: 1.15rem;
-    //     //   text-align: center;
-    //     //   width: 100%;
-    //     //   max-width: 60%;
-    //     //   color: white;
-    //     //   padding-right: 1rem;
-    //     //   padding-left: 1rem;
-    //     //   margin: 0 auto;
-    //     // }
-    //   }
-    //   /*FIN HEADER*/
-    // // .navFloat .barsFloat {
-    // //   display: none;
-    // // }
-    // }
+      }
+
+
+
+
+
+      //boton menu
+
+
+      nav .bars, nav {
+       
+      display: flex;
+      justify-content: center;
+      align-items: center;
+        
+      }
+
+
+
+      nav .bars, nav .fa-close {
+       
+        font-size: 30px;
+        
+        width: 70px;
+        height: 70px;
+        
+        border-radius: 50%;
+        color: #e5e9e0;
+        cursor: pointer;
+     
+        border: rgb(17, 112, 188) solid 3px;
+        background: rgba(18, 17, 19, 0.473);
+        
+      }
+
+      .menuSmall .BoxDesktopIncons .containerEnlaces a {
+        padding-left: 5px !important;
+        font-size: 23px;
+      }
+
+      nav .menuSmall {
+        text-align: center;
+        position: absolute;
+       
+        transition: all 0.5s ease;
+        width: 95%;
+        height: 80px;
+        padding: 15px;
+          padding-right: 15px;
+        padding-right: 15px;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+        z-index: -1;
+        overflow-y: auto;
+        -webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(15px);
+        background: rgba(30, 70, 191, 0.27);
+        border-radius: 128px;
+        overflow-y: auto;
+        gap: 35px;
+        padding-right: 60px;
+        top: -14px;
+      }
+
+
+      nav .barsCont {
+        position: absolute;
+        bottom: -24%;
+        right: 5%;
+      }
+  }
+
+  

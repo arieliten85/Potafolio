@@ -34,7 +34,7 @@
       // border: #ccd1e3 solid;
       overflow: hidden;
       box-shadow: 0px 1px 23px -3px rgba(59, 55, 55, 0.75);
-      -webkit-box-shadow: 0px 1px 23px -3px rgba(59, 55, 55, 0.75);
+      -webkit-box-shadow: 0px 1px 23px -3px rgb(46 116 214 / 75%);
       -moz-box-shadow: 0px 1px 23px -3px rgba(59, 55, 55, 0.75);
       transition: all 150ms ease-out;
     }
@@ -42,20 +42,20 @@
     .box_tdm:hover {
       transition: all 150ms ease-out;
       box-shadow: 0px 1px 23px 6px rgba(23, 19, 19, 0.75);
-      -webkit-box-shadow: 0px 1px 23px 6px rgba(23, 19, 19, 0.75);
+      -webkit-box-shadow: 0px 1px 23px 6px rgba(159, 178, 182, 0.805);
       -moz-box-shadow: 0px 1px 23px 6px rgba(23, 19, 19, 0.75);
     }
     .box_pauMac:hover {
       transition: all 150ms ease-out;
       box-shadow: 0px 1px 23px 6px rgba(23, 19, 19, 0.75);
-      -webkit-box-shadow: 0px 1px 23px 6px rgba(23, 19, 19, 0.75);
+      -webkit-box-shadow: 0px 1px 23px 6px rgba(159, 178, 182, 0.805);
       -moz-box-shadow: 0px 1px 23px 6px rgba(23, 19, 19, 0.75);
     }
 
     .box_bumeran:hover {
       transition: all 150ms ease-out;
       box-shadow: 0px 1px 23px 6px rgba(23, 19, 19, 0.75);
-      -webkit-box-shadow: 0px 1px 23px 6px rgba(23, 19, 19, 0.75);
+      -webkit-box-shadow: 0px 1px 23px 6px rgba(159, 178, 182, 0.805);
       -moz-box-shadow: 0px 1px 23px 6px rgba(23, 19, 19, 0.75);
     }
 
@@ -103,7 +103,7 @@
 
           a{
             color: rgb(104, 100, 100);
-          font-size: 20px;
+            font-size: 2.5vmax;
         
           }
           .icono{
@@ -180,8 +180,8 @@
       transition: all 500ms ease-out;
 
       .ButtonClose {
-        border: #7a7c71 solid 2px;
-        color: white;
+       // border: #7a7c71 solid 2px;
+       color: #bbd9f1;
         font-size: 18px;
         border-radius: 50%;
         position: absolute;
@@ -209,40 +209,12 @@
         height: 100%;
       }
 
-      // a {
-      //   color: rgb(156, 36, 36);
-      //   padding-left: 5px;
-      // }
+   
 
-      // .contLinkItem a:hover {
-      //   color: rgb(148, 28, 28);
-      // }
-
-      // .contLinkPort {
-      //   display: flex;
-      //   justify-content: center;
-      //   gap: 10px;
-      // }
-      // .contLinkItem {
-      //   background: rgba(133, 131, 131, 0.562);
-      //   border-radius: 5px;
-      //   width: 100%;
-      //   padding: 3%;
-      //   display: flex;
-      //   justify-content: center;
-      //   align-items: center;
-      // }
-      // .contLinkItem:hover {
-      //   background: ($color-principal);
-      //   transition: 0.3s;
-      // }
-
-      p {
-        font-size: 15px;
-        color: rgb(247, 242, 242);
-      }
+     
     }
 
+   
     .cardPorfolio_img_card01 {
       background: url("../img/Captura\ desde\ 2022-08-13\ 21-42-25.png");
       background-size: cover;
@@ -275,9 +247,7 @@
     }
 
     .cardPorfolio_img_card03 {
-      background: url("../img/bumeranFront.png");
-
-      background-size: 100% 100%;
+      background: url("../img/tpm.png");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -375,6 +345,28 @@
           display: flex;
           justify-content: space-around;
         }
+
+        .contLinkPort {
+          width: 100%;
+          margin: 0 auto;
+          display: flex;
+          justify-content: space-around;
+  
+          .item {
+         
+  
+            a{
+            
+              font-size: 2.2vmin;
+          
+            }
+          
+  
+          
+  
+           
+          }
+        }
       }
 
       .contenedor {
@@ -410,8 +402,8 @@
         transition: all 500ms ease-out;
 
         .ButtonClose {
-          border: #7a7c71 solid 2px;
-          color: white;
+         // border: #7a7c71 solid 2px;
+         color: #bbd9f1;
           font-size: 18px;
           border-radius: 50%;
           position: absolute;
@@ -465,10 +457,14 @@
           transition: 0.3s;
         }
 
+      
+
         p {
           color: rgb(247, 242, 242);
         }
       }
+
+      
     }
 
     .desc_proyecto {
@@ -491,8 +487,8 @@
     display: block;
   }
 }
-
 @media (min-width: 1280px) {
+
   .porfolio {
     p {
       text-align: left !important;
@@ -552,13 +548,9 @@
           text-align: center;
         }
 
-        .contLinkPort {
-          //border: red solid;
-          width: 100%;
-          margin: 0 auto;
-          display: flex;
-          justify-content: space-around;
-        }
+
+
+       
       }
 
       .contenedor {
@@ -594,8 +586,8 @@
         transition: all 500ms ease-out;
 
         .ButtonClose {
-          border: #7a7c71 solid 2px;
-          color: white;
+         // border: #7a7c71 solid 2px;
+         color: #bbd9f1;
           font-size: 18px;
           border-radius: 50%;
           position: absolute;
@@ -652,6 +644,8 @@
         p {
           color: rgb(247, 242, 242);
         }
+
+    
       }
 
       // .cardPorfolio_img_card01 {
@@ -682,6 +676,9 @@
 
       //   //  contenedor  img
       // }
+
+   
+
     }
 
     .desc_proyecto {
@@ -704,4 +701,36 @@
   .btn {
     display: none;
   }
+
+  .contact .bg_contact .boxItem {
+    display: flex;
+    flex-wrap: nowrap !important;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+}
+}
+
+
+
+@media (min-width: 1920px) {
+
+  .porfolio .porfolio_contenedor {
+   
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  
+}
+
+.contact .bg_contact .boxItem {
+  display: flex;
+  flex-wrap: nowrap !important;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  justify-content: start;
+  width: 100%;
+}
+
 }

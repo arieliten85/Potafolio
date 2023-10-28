@@ -136,7 +136,7 @@ let opts;
 
 if (mobile.matches) {
   opts = {
-    particleColor: "#cefd25",
+    particleColor: "#white",
     lineColor: "rgb(200,200,200)",
     particleAmount: 90,
     defaultSpeed: 0.1,
@@ -147,7 +147,7 @@ if (mobile.matches) {
   };
 } else {
   opts = {
-    particleColor: "#cefd25",
+    particleColor: "#white",
     lineColor: "rgb(200,200,200)",
     particleAmount: 250,
     defaultSpeed: 0.1,

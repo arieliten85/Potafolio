@@ -37,6 +37,10 @@
       rel="stylesheet"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/styles.css" />
     <title>ArielFerencak</title>
   </head>
@@ -47,38 +51,63 @@
     <div class="Observer-root-margin"></div>
 
     <header id="home">
+
       <canvas id="canvas"></canvas>
       <div id="text">
+        
         <div class="container">
-          <div class="boxText">
-            <p>Hola, Soy</p>
-            <h1>Ariel Ferencak</h1>
-            <h3>Fullstack Developer</h3>
-          </div>
+            <div class="boxText">
+              <h6>Hola, Soy</h6>
+              <h1>Ariel Ferencak</h1>
+              <h3>Desarrollador fullstack</h3>
+            </div>
 
-          <div class="boxEnlaces">
-            <a
-              href="https://www.linkedin.com/in/arielferencak/"
-              class="fa fa-linkedin btn_arrow"
-              target="_blank"
-            ></a>
-            <a
-              href="https://github.com/arieliten85"
-              class="fa fa-github btn_arrow"
-              target="_blank"
-            ></a>
-            <a href="./DOC/CV-ES.pdf" download class="btn_arrow">CV</a>
-          </div>
+            <div class="boxEnlaces">
+              <a
+                href="https://www.linkedin.com/in/arielferencak/"
+                class="fa fa-linkedin btn_arrow"
+                target="_blank"
+              ></a>
+              <a
+                href="https://github.com/arieliten85"
+                class="fa fa-github btn_arrow"
+                target="_blank"
+              ></a>
+              <a href="./DOC/CV.pdf" download class="btn_arrow">CV</a>
+            </div>
+
+             <div class="container_thmes_leng">
+              <div class="theme-container shadow-dark">
+                <img id="theme-icon" src="https://www.uplooder.net/img/image/2/addf703a24a12d030968858e0879b11e/moon.svg" alt="ERR">
+              </div>
+      
+      
+              <label>
+                <input type="checkbox"  id="switch-shadow"/>
+                <span><p name="bulb-outline"></p>EN</span>
+              </label>
+  
+              
+            </div>
+
+           
+            <div class="boxArrow">   
+              <span>
+                <a href="#about" class="arrow-down">Empecemos</a>
+              </span>
+            </div>
+    
+        
         </div>
 
-        <div class="boxArrow">
-          <span>
-            <a href="#about" class="arrow-down">Empecemos</a>
-          </span>
-        </div>
+
+       
       </div>
 
       <div id="masthead"></div>
+
+
+      <div class="degrade"></div>
     </header>
 
     <div class="flexHorizontal nav-menu">
@@ -127,17 +156,12 @@
 
           <div class="aboutText">
             <h3>Quien soy?</h3>
-            <p>
-              Desde chico tuve un interés profundo con la tecnología. En el
-              transcurso de mi vida pasé por diferentes experiencias y trabajos,
-              hasta que pude finalmente enfocarme y entrar en el mundo IT.
-              Actualmente estoy en la búsqueda laboral para aplicar mis
-              conocimientos y seguir creciendo profesionalmente. Sigo
-              aprendiendo y perfeccionándome en tecnologías y frameworks como:
-              <strong>
-                Javascript, React, MySQL, Node.js, Firebase, CSS, SASS, HTML,
-                Bootstrap, Sequelize, Redux, Mongo DB, Mongoose etc.
-              </strong>
+            <p class="">
+              Nací en Lanús, provincia de Bs.AS. Y desde chico tuve un interés profundo con la tecnología. En el
+              transcurso de mi vida pasé por diferentes experiencias laborales
+              hasta, que finalmente descubrí el maravilloso y enorme mundo de la programación
+              Actualmente sigo estudiando y desarrollando proyectos cada vez más
+              desafiantes usando las últimas tecnologías para generar el máximo desempeño y performance a mis trabajos.
             </p>
           </div>
 
@@ -154,10 +178,6 @@
         <h2>tecnologías</h2>
         <hr class="divider" />
         <div class="contIconosExp">
-          <div class="bgIconExp">
-            <img src="https://img.icons8.com/color/75/000000/javascript.png" />
-            <p>Javascript</p>
-          </div>
 
           <div class="bgIconExp">
             <img src="https://img.icons8.com/color/70/000000/html-5.png" />
@@ -168,12 +188,6 @@
             <img src="https://img.icons8.com/color/70/000000/css3.png" />
             <p>Css</p>
           </div>
-
-          <div class="bgIconExp">
-            <img src="https://img.icons8.com/color/70/000000/redux.png" />
-            <p>Redux</p>
-          </div>
-
           <div class="bgIconExp">
             <img src="https://img.icons8.com/color/70/000000/sass.png" />
             <p>Sass</p>
@@ -182,6 +196,57 @@
           <div class="bgIconExp">
             <img src="https://img.icons8.com/color/70/000000/bootstrap.png" />
             <p>Bootstrap</p>
+          </div>
+
+          <div class="bgIconExp">
+            <img src="https://img.icons8.com/color/75/000000/javascript.png" />
+            <p>Javascript</p>
+          </div>
+
+          <div class="bgIconExp">
+            <img
+              style="width: 71px"
+              src="https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png"
+            />
+            <p>React</p>
+          </div>
+
+          <div class="bgIconExp">
+            <img src="https://img.icons8.com/color/70/000000/redux.png" />
+            <p>Redux</p>
+          </div>
+
+          <div class="bgIconExp">
+            <img src="https://img.icons8.com/color/70/000000/nodejs.png" />
+            <p>NodeJS</p>
+          </div>
+
+          <div class="bgIconExp">
+            <img
+              style="width: 75px"
+              src="https://www.mementotech.in/assets/images/icons/express.png"
+            />
+            <p>Express</p>
+          </div>
+
+          <div class="bgIconExp">
+            <img src="https://img.icons8.com/color/70/000000/mongodb.png" />
+            <p>MongoDB</p>
+          </div>
+          <div class="bgIconExp">
+            <img src="https://img.icons8.com/color/70/000000/firebase.png" />
+            <p>Firebase</p>
+          </div>
+        
+
+          <div class="bgIconExp">
+            <img src="https://img.icons8.com/color/70/000000/postgreesql.png" />
+            <p>Postgreesql</p>
+          </div>
+
+          <div class="bgIconExp">
+            <img src="https://img.icons8.com/color/70/000000/mysql.png" />
+            <p>MySQL</p>
           </div>
 
           <div class="bgIconExp">
@@ -194,38 +259,22 @@
             <p>GitHub</p>
           </div>
 
-          <div class="bgIconExp">
-            <img src="https://img.icons8.com/color/70/000000/nodejs.png" />
-            <p>NodeJS</p>
-          </div>
-
-          <div class="bgIconExp">
-            <img src="https://img.icons8.com/color/70/000000/mongodb.png" />
-            <p>MongoDB</p>
-          </div>
-          <div class="bgIconExp">
-            <img src="https://img.icons8.com/color/70/000000/firebase.png" />
-            <p>Firebase</p>
-          </div>
+      
           <div class="bgIconExp">
             <img
-              style="width: 75px"
-              src="https://www.mementotech.in/assets/images/icons/express.png"
+              style="width: 71px"
+              src="https://static-00.iconduck.com/assets.00/bitbucket-icon-512x512-exmgeb8n.png"
             />
-            <p>Express</p>
-          </div>
-
-          <div class="bgIconExp">
-            <img src="https://img.icons8.com/color/70/000000/postgreesql.png" />
-            <p>Postgreesql</p>
+            <p>Bitbucket</p>
           </div>
           <div class="bgIconExp">
             <img
               style="width: 71px"
-              src="https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Logo_jasmine.svg/1200px-Logo_jasmine.svg.png"
+              src="https://cdn.icon-icons.com/icons2/2699/PNG/512/atlassian_jira_logo_icon_170511.png"
             />
-            <p>Jasmine</p>
+            <p>Jira</p>
           </div>
+         
         </div>
         <br />
         <br />
@@ -340,6 +389,71 @@
                   <div class="cardShadowText">
                     <div class="ButtonClose fa fa-close"></div>
                     <p>
+                      THE PERFECT MENTOR es una app patrocinada por
+                     <a href="https://www.globant.com/es"><strong>Globant</strong></a>
+                        donde podras encontrar a tu mentor ideal.
+                        Dependiendo cual sea tu rol, podes elegir
+                        a la persona de tu interes  dentro de una lista y mandarle
+                        una invitacion, si la persona acepta, se genera un match donde
+                         se habilita información  y herramientas que te permitiran ponerte
+                         en contacto con tu match. Para el
+                       desarrollo la misma se uso los siguientes tecnologías:
+                      <strong>
+                        React, Node, Express, SASS, JWT, MongoDB, Socket.io,  Mongoose-Pagination
+                      </strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="desc_proyecto">
+              <!-- <h3>Bumeran Selecta</h3> -->
+              <div class="contLinkPort">
+                <div class="contLinkItem">
+                  <div class="item">
+                    <i class="fas fa-globe icono"></i>
+                    <a
+                      href="https://youtu.be/64nkuvO35tc"
+                      target="_blank"
+                      >Website</a
+                    >
+                  </div>
+                </div>
+
+                <div class="contLinkItem">
+                  <div class="item">
+                    <i class="fab fa-github icono"></i>
+                    <a
+                      href="https://github.com/arieliten85/ThePerfectMentor"
+                      target="_blank"
+                      >Repositorio</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- MENTOR -->
+
+          <div class="box_bumeran">
+            <div class="contenedor">
+              <div class="cardPorfolio_img_card04 imgGaleria"
+              style="
+              background-image:url(./img/bumeranFront.png);
+              background-size: cover;
+              background-position: center;
+              width: 100%;
+              height: 300px;
+              "
+              
+              
+              id="cardShadow">
+                <div class="seeMore" id="#tmdb">Más</div>
+                <div class="capa">
+                  <div class="cardShadowText">
+                    <div class="ButtonClose fa fa-close"></div>
+                    <p>
                       Proyecto profesional brindado por Jovint SA. Página Web
                       dedicada exclusivamente para el usó interno por aquellas
                       empresas que quieran cubrir de manera rápida y efectiva un
@@ -355,7 +469,7 @@
               </div>
             </div>
             <div class="desc_proyecto">
-              <!-- <h3>Bumeran Selecta</h3> -->
+             
               <div class="contLinkPort">
                 <div class="contLinkItem">
                   <div class="item">
@@ -381,6 +495,9 @@
               </div>
             </div>
           </div>
+
+
+
         </div>
       </section>
       <!-- FIN PORFOLIO -->
@@ -393,6 +510,8 @@
       <div class="Contact">
         <div class="contenedor_contact">
           <div class="bg_contact">
+
+
             <div class="ContainerItems">
               <div class="boxItem">
                 <a
@@ -428,7 +547,12 @@
               </div>
             </div>
 
-            <div class="imagenContacto"></div>
+       
+              <div class="imagenContacto"></div>
+       
+
+           
+
           </div>
         </div>
       </div>
@@ -437,10 +561,13 @@
 
     <footer>
       <div class="bg_footer">
-        <p>Copyright © 2022 @ArielFerencak <br />All rights reserved</p>
+        <p id="footer">Copyright © 2022 @ArielFerencak <br />All rights reserved</p>
       </div>
     </footer>
 
     <script src="./js/botonMenu.js"></script>
+    <script src="./js/traduccion.js"></script>
+    <script src="./js/themes.js"></script>
+    
   </body>
 </html>

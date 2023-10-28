@@ -1,0 +1,50 @@
+:root{
+  
+  --bs-light: rgb(255, 255, 255);
+}
+
+.theme-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    // position: absolute;
+    // bottom: 0;
+    // right: 0;
+
+    border: rgb(79, 82, 84) solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.theme-container:hover {
+  opacity: 0.8;
+}
+
+.shadow-dark {
+    background: black;
+
+}
+
+#theme-icon{}
+
+
+
+// @keyframes change {
+//   0% {
+//     transform: scale(1);
+//   }
+
+//   100% {
+//     transform: scale(1.4);
+//   }
+// }
+
+// .change {
+//   animation-name: change;
+//   animation-duration: 1s;
+//   animation-direction: alternate;
+// }

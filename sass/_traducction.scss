@@ -1,0 +1,50 @@
+label{
+    // position:absolute;
+    // top: 185px;
+    // right: 81px;
+
+
+    border-radius:10px;
+}
+
+label input{
+
+    display: none;
+}
+
+label span{
+  
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    border: rgb(79, 82, 84) solid;
+    color: black;
+    font-size: 900 !important;
+
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+   
+}
+label span:hover {
+    opacity: 0.8;
+  }
+
+
+
+
+
+@media (min-width: 1280px) {
+
+    label span{
+  
+   
+        font-size: 1.5vmax;
+       
+    }
+
+}
